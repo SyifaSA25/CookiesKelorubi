@@ -1,0 +1,101 @@
+/* Reset Style */
+body, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Warna */
+:root {
+    --purple: #a5668b;
+    --green: #a1b885;
+}
+
+/* Halaman Utama */
+.main-header {
+    text-align: center;
+    background-color: var(--purple);
+}
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Deskripsi Produk */
+#deskripsi-produk {
+    padding: 20px;
+    background-color: var(--green);
+    text-align: center;
+}
+.text-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.text-box h2 {
+    color: var(--purple);
+    margin-bottom: 10px;
+}
+.text-box p {
+    color: #333;
+}
+
+/* Cookies Kelorubi */
+#cookies-kelorubi {
+    padding: 20px;
+    text-align: center;
+}
+.banner {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.text-box {
+    margin: 10px 0;
+}
+.cookies-image {
+    width: 100%;   
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Hubungi Kami */
+#hubungi-kami {
+    padding: 20px;
+    text-align: center;
+    background-color: #a5668b; /* Warna latar belakang sesuai dengan skema warna */
+    color: white;
+    border-radius: 10px; /* Membuat sudut latar membulat */
+}
+#hubungi-kami ul {
+    list-style-type: none;
+    padding: 0;
+}
+#hubungi-kami li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Mengatur posisi teks agar lebih nyaman */
+    gap: 10px; /* Memberikan jarak antar elemen */
+}
+#hubungi-kami a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+#hubungi-kami a:hover {
+    text-decoration: underline;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
